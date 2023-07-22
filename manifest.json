@@ -1,0 +1,23 @@
+ {
+     "manifest_version": 3,
+     "name": "Passcal",
+     "version": "1.0",
+     "description": "Generate a iCalendar file with a ChatGPT response",
+     "icons": {
+         "16": "icon.jpeg"
+     },
+     "background": {
+         "service_worker": "js/background.js"
+     },
+     "permissions": [
+         "clipboardWrite",
+         "clipboardRead",
+         "activeTab",
+         "storage",
+         "downloads",
+         "scripting"
+     ],
+     "action": {
+         "default_title": "Generate iCalendar"
+     }
+ }
